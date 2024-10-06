@@ -1,6 +1,6 @@
 const url ='https://api.openweathermap.org/data/2.5/weather?'
 const icon_url = 'http://openweathermap.org/img/wn/'
-const api_key = ''
+var apiKey = config.API_KEY
 const temp_span = document.querySelector('#temp')
 const speed_span = document.querySelector('#speed')
 const direction_span = document.querySelector('#direction')
@@ -29,8 +29,8 @@ const getWeather = (lat,lng) => {
     const adress = url +
     'lat' + lat +
     '&lon' + lng +
-    '&unit=metric' +
-    '&appid=' + api_key
+    '&units=metric' +
+    '&appid=' + apiKey
     axios.get(adress)
     .then(response => {
         const json = response.data
