@@ -1,4 +1,4 @@
-Ohjeista poiketen tehty erillinen config tiedosto API avainta varten ja lisätty kyseinen tiedodosto gitingoreen.
+Ohjeista poiketen tehty erillinen config tiedosto API avaimen suojaamista varten ja lisätty kyseinen tiedodosto gitingoreen.
 
 Saadaksesi toimimaan omalla API avaimella laita API avain tiedostoon js\config.example.js sekä poista .example config tiedoston nimestä
 
