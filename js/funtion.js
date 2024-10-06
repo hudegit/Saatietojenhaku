@@ -1,4 +1,4 @@
-const url ='https://api.openweathermap.org/data/2.5/weather?'
+const url ='https://api.openweathermap.org/data/3.0/onecall?'
 const icon_url = 'http://openweathermap.org/img/wn/'
 var apiKey = config.API_KEY
 const temp_span = document.querySelector('#temp')
