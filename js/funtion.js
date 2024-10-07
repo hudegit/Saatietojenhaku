@@ -1,5 +1,5 @@
-const url ='https://api.openweathermap.org/data/3.0/onecall?'
-const icon_url = 'http://openweathermap.org/img/wn/'
+const url ='https://api.openweathermap.org/data/2.5/weather?'
+const icon_url = 'https://openweathermap.org/img/wn/'
 var apiKey = config.API_KEY
 const temp_span = document.querySelector('#temp')
 const speed_span = document.querySelector('#speed')
@@ -27,8 +27,8 @@ const getLocation = () => {
 
 const getWeather = (lat,lng) => {
     const adress = url +
-    'lat' + lat +
-    '&lon' + lng +
+    'lat=' + lat +
+    '&lon=' + lng +
     '&units=metric' +
     '&appid=' + apiKey
     axios.get(adress)
