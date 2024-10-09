@@ -5,7 +5,7 @@ const temp_span = document.querySelector('#temp')
 const speed_span = document.querySelector('#speed')
 const direction_span = document.querySelector('#direction')
 const description_span = document.querySelector('#description')
-const icon_img = document.querySelector('#img')
+const icon_img = document.querySelector('img')
 
 
 const getLocation = () => {
