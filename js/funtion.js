@@ -1,5 +1,6 @@
 const url ='https://api.openweathermap.org/data/2.5/weather?'
 const icon_url = 'https://openweathermap.org/img/wn/'
+// API avaimen haku config.js tiedostosta. Muuta config.example.js tiedoston nimi config.js ja laita api avaimesi sinne.
 var apiKey = config.API_KEY
 const temp_span = document.querySelector('#temp')
 const speed_span = document.querySelector('#speed')
